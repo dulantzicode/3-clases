@@ -35,7 +35,9 @@ class Invoice:
 
 
 google = Invoice('Google', 100)
+
 print(google.formatter())
+
 print(google.client)
 
 google.client = 'Yahoo'

@@ -4,7 +4,6 @@ system('cls')
 
 # La función __init__ se ejecuta siempre que se instancie la clase.
 
-
 class Invoice:
   def __init__(self, client, total):
     self.client = client

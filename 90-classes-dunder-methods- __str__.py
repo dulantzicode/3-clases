@@ -11,6 +11,10 @@ class Invoice:
 inv = Invoice()
 print(str(inv))
 
+# los métodos dunder son métodos internos que no se modifican, se usan
+# tal cual son. 
+
+
 class Invoice:
   def __init__(self, client, total):
     self.client = client
