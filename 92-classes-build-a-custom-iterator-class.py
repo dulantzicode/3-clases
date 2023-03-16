@@ -38,7 +38,7 @@ astros = [
 ]
 
 astros_lineup = Lineup(astros)  # instanciamos la clase
-process = iter(astros_lineup)   # ejecutamos iter para iniciar la variable
+process = iter(astros_lineup)   # iniciamos iter para iniciar la variable
                                 # de iteración
                                   
 print(next(process))            # solicita el valor actual y avanza al siguiente.
