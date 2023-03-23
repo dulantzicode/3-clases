@@ -3,22 +3,17 @@ system('cls')
 
 # Nota: doble __ se pronuncia Dunder
 
-class Invoice:
 # los nombres de las classes comienzan con mayúscula
+class Invoice:
 
+  # Las funciones dentro de una clase necesitan como mínimo
+  # un argumento (se usa self). Si hay más, self es el primero.
   def greeting(self):
     return 'Hi there'
 
 
-inv_one = Invoice()
+inv_one = Invoice()        # se crea una instancia de la clase
 print(inv_one.greeting())
-
-# Las funciones dentro de una clase necesitan como mínimo
-# un argumento (se usa self). Si hay más, self es el primero.
-
-
-
-
 
 
 
@@ -32,5 +27,4 @@ class Garage:
     return "The door opens"
   
 home = Garage()
-
 print (home.open_door())

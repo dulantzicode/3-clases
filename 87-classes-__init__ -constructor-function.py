@@ -20,8 +20,6 @@ print(google.formatter())
 print(snapchat.formatter())
 
 
-
-
 # Coding Exercise
 # Using our Garage class from the previous guide, add a constructor method
 # that builds a property named size, which will represent how many cars 
